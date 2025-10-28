@@ -39,6 +39,10 @@ align-items: center;
             font-family: "Prompt", sans-serif;
 }
 
+#btn-2day:hover, #btn-3day:hover, #btn-7day:hover, #btn-30day:hover {
+    transform: scale(1.1);
+    background: #ff5151;
+}
 
 
 /* กล่องเน็ต */
@@ -98,10 +102,6 @@ color: #000000;
         color: #ffffff;
 }
 
-#certificate {
-    margin: 0 auto;
-   text-align: center;
-}
 
 #speed {
     border: solid;
