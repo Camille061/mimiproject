@@ -61,6 +61,7 @@ align-items: center;
 .text-internet-box {
 position: relative;
 top: 15px;
+color: #000000;
 }
 
 /* ปุ่มโทรออก */
@@ -71,15 +72,18 @@ top: 15px;
           border-radius: 7px;
           color: #ffffff;
             box-shadow: 0 0 20px 5px rgba(58, 78, 63, 0.5);
-            border: none;
-          
+            border: none;     
+            position: relative;   
+            top: 10px;
 }
+
 /* hoverปุ้มโทร */
 #callout:hover {
     transform: scale(1.1);
         background-color: #a00909;
 }
 
+/* เบอร์ต่างๆ */
 .key-number  {
       position: relative;
     top: 10px;
@@ -97,6 +101,14 @@ top: 15px;
 #certificate {
     margin: 0 auto;
    text-align: center;
+}
+
+#speed {
+    border: solid;
+    border-radius: 10px;
+    max-width:250px;
+    text-align: center;
+  color: #000000;
 }
 /* 
 git init

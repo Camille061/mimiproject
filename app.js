@@ -4,9 +4,9 @@ let package = document.getElementById("package")
 let speed = document.getElementById("speed")
 let btn = document.getElementById("callout")
 
-btn.onclick = () => {
-    window.location.href = "tel:*900*3719*17331647#";
-}
+// btn.onclick = () => {
+//     //  window.location.href = 'tel:*900*3719*17331647#'
+// }
 
 let btn2day = document.getElementById("btn-2day")
 let btn3day = document.getElementById("btn-3day")
@@ -47,15 +47,3 @@ btn30day.onclick = () => {
   thirtyday.hidden = false
 }
 
-let passbtn = document.getElementById("pass-btn")
-let certificate = document.getElementById("certificate")
-let backcode = document.getElementById("backcode")
-let password = "swip5hig"
-
-passbtn.onclick = () => {
-  if (backcode.value === password)  {
- certificate.hidden = false
-  } else {
-    alert(" ผิด")
-  }
-}
