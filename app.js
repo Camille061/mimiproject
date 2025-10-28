@@ -1,16 +1,14 @@
-let quantity = document.getElementById("quantity")
-let prince = document.getElementById("prince")
-let result = document.getElementById("result")
-let plus = document.getElementById("plus")
 
+let Name = document.getElementById("Name")
+let package = document.getElementById("package")
+let speed = document.getElementById("speed")
 
-
-let calculate = () => {
- let q = Number(quantity.value);
-  let p = Number(prince.value);
-  let total = q * p
-  result.value = total
+let Trueinternet = {
+    Name: "300 บาท 1 Mbps",
+    speed: ' เน็ตความเร็ว 15 Mbps',
+    number: "*900*3719*17331647#"
 }
 
-plus.onclick = calculate
-
+Name.innerHTML = Trueinternet.Name
+package.innerHTML = Trueinternet.speed
+speed.innerHTML = Trueinternet.number
