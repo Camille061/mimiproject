@@ -37,6 +37,7 @@ btn7day.onclick = () => {
   twoday.hidden = true
   threeday.hidden = true
   sevenday.hidden = false
+   thirtyday.hidden = true
 }
 
 btn30day.onclick = () => {
@@ -46,22 +47,15 @@ btn30day.onclick = () => {
   thirtyday.hidden = false
 }
 
+let passbtn = document.getElementById("pass-btn")
+let certificate = document.getElementById("certificate")
+let backcode = document.getElementById("backcode")
+let password = "swip5hig"
 
-
-// let Trueinternet = {
-//     Name: "300 บาท 1 Mbps",
-//     speed: ' เน็ตความเร็ว 15 Mbps',
-//     number: "*900*3719*17331647#"
-// }
-
-// let Trueinterne = {
-//     Name: "300 บาท 1 Mbps",
-//     speed: ' เน็ตความเร็ว 15 Mbps',
-//     number: "*900*3719*17331647#"
-// }
-
-// Name.innerHTML = Trueinternet.Name
-// package.innerHTML = Trueinternet.speed
-// speed.innerHTML = Trueinternet.number
-
-
+passbtn.onclick = () => {
+  if (backcode.value === password)  {
+ certificate.hidden = false
+  } else {
+    alert(" ผิด")
+  }
+}

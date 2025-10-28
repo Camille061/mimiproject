@@ -80,7 +80,10 @@ top: 15px;
         background-color: #a00909;
 }
 
-
+#certificate {
+    margin: 0 auto;
+   text-align: center;
+}
 /* 
 git init
 git add .
