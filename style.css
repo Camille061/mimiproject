@@ -1,6 +1,41 @@
+
+
+#calculate {
+    text-align: center;
+}
+
+#quantity, #prince {
+    position: relative;
+    top: 5px;
+}
+
+
+ #result {
+       position: relative;
+    top: 13px;
+ }
+
+#plus {
+    position: relative;
+    top: 10px;
+}
+
+.o {
+    position: relative;
+    top: 5px;
+}
+
+
+
+
+
+
+
+
+
 /* 
 git init
-git add .md
+git add .
 git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/Camille061/mimiproject.git

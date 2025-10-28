@@ -1,83 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  
 
-  <!-- Question1 -->
- <div style="text-align: center;">
- <div id="question">
-<h1>Question</h1>
-<h2>1 + 1 = ?</h2>
-</div>
+  <div id="calculate">
+    <input id="quantity" type="text" size="9" placeholder="จำนวนไม้"> <br>
+    <span class="o">+</span> <br>
+    <input id="prince" type="text" size="9" placeholder="ไม้ละ"> <br>
+    <input id="plus" type="button" size="9" value="=" readonly> <br>
+    <input id="result" type="text" size="9" placeholder="" readonly> <br>
+  </div>
 
-<div id="collect" hidden>
-<p>ถูกต้อง🎉🎉</p>
-</div>
-
-<div id="wrong" hidden>
-<p>ผิด</p>
-</div>
-
-<div id="beforeanswer">
-<input id="choicea" type="button" size="8" value="1">
-<input id="choiceb" type="button" size="8" value="2">
-<input id="choicec" type="button" size="8" value="3">
-<input id="choiced" type="button" size="8" value="4">
-</div>
-<input id="tryAgain" type="button" value="ลองใหม่" style="position: relative; top: 20px;">
-</div>
-
-<script>
-let tryAgain = document.getElementById("tryAgain")
-let collect = document.getElementById("collect")
-let wrong = document.getElementById("wrong")
-let question = document.getElementById("question")
-let a = document.getElementById("choicea")
-let b = document.getElementById("choiceb")
-let c = document.getElementById("choicec")
-let d = document.getElementById("choiced")
-let beforeanswer = document.getElementById("beforeanswer")
-
-a.onclick = () => {
-beforeanswer.hidden = true
-question.hidden = true
-wrong.hidden = false
-collect.hidden = true
-}
-
-b.onclick = () => {
-beforeanswer.hidden = true
-question.hidden = true
-wrong.hidden = true
-collect.hidden = false
-}
-
-
-c.onclick = () => {
-beforeanswer.hidden = true
-question.hidden = true
-wrong.hidden = false
-collect.hidden = true
-}
-
-d.onclick = () => {
-beforeanswer.hidden = true
-question.hidden = true
-wrong.hidden = false
-collect.hidden = true
-}
-
-tryAgain.onclick = () => {
-beforeanswer.hidden = false
-question.hidden = false
-}
-
-</script>
+  <script src="app.js"></script>
 </body>
+
 </html>
