@@ -80,6 +80,20 @@ top: 15px;
         background-color: #a00909;
 }
 
+.key-number  {
+      position: relative;
+    top: 10px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 10px;
+    max-width: 300px;
+    height: 200px;
+    background: linear-gradient(to bottom, #ff3b3b, #990000);
+       box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.5);
+        font-family: "Prompt", sans-serif;
+        color: #ffffff;
+}
+
 #certificate {
     margin: 0 auto;
    text-align: center;
