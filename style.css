@@ -29,7 +29,7 @@ align-items: center;
 }
 
 /* ปุ้มเลือกวัน */
-#btn-2day,#btn-3day,#btn-7day, #btn-30day {
+#btn-1day, #btn-2day,#btn-3day,#btn-7day, #btn-30day {
     width: 40px;
     padding: 5px;
     background: linear-gradient(to bottom, #ff0000, #9d0000);
@@ -39,7 +39,7 @@ align-items: center;
             font-family: "Prompt", sans-serif;
 }
 
-#btn-2day:hover, #btn-3day:hover, #btn-7day:hover, #btn-30day:hover {
+#btn-1day:hover, #btn-2day:hover, #btn-3day:hover, #btn-7day:hover, #btn-30day:hover {
     transform: scale(1.1);
     background: #ff5151;
 }
