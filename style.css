@@ -37,6 +37,7 @@ align-items: center;
     border-radius: 10px;
     color: #ffffff;
             font-family: "Prompt", sans-serif;
+            
 }
 
 #btn-1day:hover, #btn-2day:hover, #btn-3day:hover, #btn-7day:hover, #btn-30day:hover {
@@ -109,6 +110,10 @@ color: #000000;
     max-width:250px;
     text-align: center;
   color: #000000;
+}
+
+footer {
+    text-align: center;
 }
 /* 
 git init

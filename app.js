@@ -1,13 +1,4 @@
 
-let Name = document.getElementById("Name")
-let package = document.getElementById("package")
-let speed = document.getElementById("speed")
-let btn = document.getElementById("callout")
-
-// btn.onclick = () => {
-//     //  window.location.href = 'tel:*900*3719*17331647#'
-// }
-
 let btn1day = document.getElementById("btn-1day")
 let btn2day = document.getElementById("btn-2day")
 let btn3day = document.getElementById("btn-3day")
@@ -59,4 +50,7 @@ btn30day.onclick = () => {
   sevenday.hidden = true
   thirtyday.hidden = false
 }
+
+let button = document.getElementById("box-menu-btn")
+let present = document.getElementById("key-number")
 
